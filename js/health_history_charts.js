@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 async function loadHealthHistoryData() {
     try {
         console.log('Loading health history data...');
-        const response = await fetch('/inventory-management-system/get_health_history_data.php');
+        const response = await fetch('/bkinventory/get_health_history_data.php');
         const data = await response.json();
         
         if (data.success) {

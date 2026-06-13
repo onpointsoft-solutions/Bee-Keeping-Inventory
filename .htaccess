@@ -3,7 +3,7 @@
 RewriteEngine On
 
 # Set the base directory
-RewriteBase /inventory-management-system/
+RewriteBase /bkinventory/
 
 # Don't apply rules to existing files or directories
 RewriteCond %{REQUEST_FILENAME} !-f

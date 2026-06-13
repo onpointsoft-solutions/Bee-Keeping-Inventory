@@ -20,7 +20,7 @@ if (typeof window.HiveManager === 'undefined') {
         async loadHives() {
             try {
                 // Use direct PHP file instead of API
-                const response = await fetch('/inventory-management-system/get_hives_data.php');
+                const response = await fetch('/bkinventory/get_hives_data.php');
                 const data = await response.json();
                 
                 if (data.success) {

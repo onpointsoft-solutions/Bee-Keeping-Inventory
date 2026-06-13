@@ -57,7 +57,7 @@ require_once(__DIR__ . '/../controllers/reports/ReportsController.php');
 
 // Parse the request URI to determine the endpoint
 $requestUri = $_SERVER['REQUEST_URI'];
-$basePath = '/inventory-management-system/api/';
+$basePath = '/bkinventory/api/';
 
 // Extract the path after the base path
 $path = '';

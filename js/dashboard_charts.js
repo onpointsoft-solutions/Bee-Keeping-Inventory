@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 async function loadDashboardData() {
     try {
         console.log('Loading dashboard data...');
-        const response = await fetch('/inventory-management-system/get_dashboard_data.php');
+        const response = await fetch('/bkinventory/get_dashboard_data.php');
         const data = await response.json();
         
         if (data.success) {

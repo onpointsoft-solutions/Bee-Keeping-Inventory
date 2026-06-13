@@ -51,7 +51,7 @@ async function loadEquipment() {
         
         // Fetch equipment data using direct PHP file instead of API
         try {
-            const response = await fetch('/inventory-management-system/get_equipment_data.php');
+            const response = await fetch('/bkinventory/get_equipment_data.php');
             const data = await response.json();
             
             if (data.success) {
@@ -82,7 +82,7 @@ async function loadInventoryReport() {
         }
         
         // Use direct PHP file instead of API
-        const response = await fetch('/inventory-management-system/get_equipment_report.php');
+        const response = await fetch('/bkinventory/get_equipment_report.php');
         const data = await response.json();
         
         console.log('Inventory report response:', data); // Log the full response

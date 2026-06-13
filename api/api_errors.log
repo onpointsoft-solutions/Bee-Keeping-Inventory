@@ -4909,3 +4909,283 @@ Stack trace:
     [action] => getHealthReport
 )
 
+[13-Jun-2026 13:07:22 Europe/Berlin] Raw POST data: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:07:22 Europe/Berlin] Decoded JSON data: Array
+(
+    [action] => login
+    [username] => vincentbettoh@gmail.com
+    [password] => @Admin@2026
+)
+
+[13-Jun-2026 13:07:22 Europe/Berlin] API Request: POST /bkinventory/api/auth - Endpoint: auth - Raw Params: Array
+(
+    [action] => login
+    [username] => vincentbettoh@gmail.com
+    [password] => @Admin@2026
+)
+
+[13-Jun-2026 13:07:22 Europe/Berlin] POST Data: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:07:22 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:07:22 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:07:22 Europe/Berlin] Login attempt: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:07:22 Europe/Berlin] Login failed: User not found - vincentbettoh@gmail.com
+[13-Jun-2026 13:08:17 Europe/Berlin] Raw POST data: {"action":"register","fullName":"VIncent","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:08:17 Europe/Berlin] Decoded JSON data: Array
+(
+    [action] => register
+    [fullName] => VIncent
+    [username] => vincentbettoh@gmail.com
+    [password] => @Admin@2026
+)
+
+[13-Jun-2026 13:08:17 Europe/Berlin] API Request: POST /bkinventory/api/auth - Endpoint: auth - Raw Params: Array
+(
+    [action] => register
+    [fullName] => VIncent
+    [username] => vincentbettoh@gmail.com
+    [password] => @Admin@2026
+)
+
+[13-Jun-2026 13:08:17 Europe/Berlin] POST Data: {"action":"register","fullName":"VIncent","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:08:17 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:08:17 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:08:17 Europe/Berlin] Incoming registration data: {"action":"register","fullName":"VIncent","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:08:17 Europe/Berlin] Registration successful: vincentbettoh@gmail.com
+[13-Jun-2026 13:08:33 Europe/Berlin] Raw POST data: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Amdin@2026"}
+[13-Jun-2026 13:08:33 Europe/Berlin] Decoded JSON data: Array
+(
+    [action] => login
+    [username] => vincentbettoh@gmail.com
+    [password] => @Amdin@2026
+)
+
+[13-Jun-2026 13:08:33 Europe/Berlin] API Request: POST /bkinventory/api/auth - Endpoint: auth - Raw Params: Array
+(
+    [action] => login
+    [username] => vincentbettoh@gmail.com
+    [password] => @Amdin@2026
+)
+
+[13-Jun-2026 13:08:33 Europe/Berlin] POST Data: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Amdin@2026"}
+[13-Jun-2026 13:08:33 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:08:33 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:08:33 Europe/Berlin] Login attempt: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Amdin@2026"}
+[13-Jun-2026 13:08:33 Europe/Berlin] Login failed: Invalid password for user - vincentbettoh@gmail.com
+[13-Jun-2026 13:08:45 Europe/Berlin] Raw POST data: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:08:45 Europe/Berlin] Decoded JSON data: Array
+(
+    [action] => login
+    [username] => vincentbettoh@gmail.com
+    [password] => @Admin@2026
+)
+
+[13-Jun-2026 13:08:45 Europe/Berlin] API Request: POST /bkinventory/api/auth - Endpoint: auth - Raw Params: Array
+(
+    [action] => login
+    [username] => vincentbettoh@gmail.com
+    [password] => @Admin@2026
+)
+
+[13-Jun-2026 13:08:45 Europe/Berlin] POST Data: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:08:45 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:08:45 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:08:45 Europe/Berlin] Login attempt: {"action":"login","username":"vincentbettoh@gmail.com","password":"@Admin@2026"}
+[13-Jun-2026 13:08:45 Europe/Berlin] Login successful: vincentbettoh@gmail.com
+[13-Jun-2026 13:10:06 Europe/Berlin] Raw POST data: {"controller":"reports","action":"getProductionReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] Decoded JSON data: Array
+(
+    [controller] => reports
+    [action] => getProductionReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] API Request: POST /bkinventory/api/reports - Endpoint: reports - Raw Params: Array
+(
+    [controller] => reports
+    [action] => getProductionReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] POST Data: {"controller":"reports","action":"getProductionReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports endpoint called with action: getProductionReport
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports params: Array
+(
+    [controller] => reports
+    [action] => getProductionReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Raw POST data: {"controller":"reports","action":"getHealthReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] Decoded JSON data: Array
+(
+    [controller] => reports
+    [action] => getHealthReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] API Request: POST /bkinventory/api/reports - Endpoint: reports - Raw Params: Array
+(
+    [controller] => reports
+    [action] => getHealthReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] POST Data: {"controller":"reports","action":"getHealthReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports endpoint called with action: getHealthReport
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports params: Array
+(
+    [controller] => reports
+    [action] => getHealthReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Raw POST data: {"controller":"reports","action":"getHealthReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] Decoded JSON data: Array
+(
+    [controller] => reports
+    [action] => getHealthReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] API Request: POST /bkinventory/api/reports - Endpoint: reports - Raw Params: Array
+(
+    [controller] => reports
+    [action] => getHealthReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] POST Data: {"controller":"reports","action":"getHealthReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports endpoint called with action: getHealthReport
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports params: Array
+(
+    [controller] => reports
+    [action] => getHealthReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Raw POST data: {"controller":"reports","action":"getEquipmentReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] Decoded JSON data: Array
+(
+    [controller] => reports
+    [action] => getEquipmentReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] API Request: POST /bkinventory/api/reports - Endpoint: reports - Raw Params: Array
+(
+    [controller] => reports
+    [action] => getEquipmentReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] POST Data: {"controller":"reports","action":"getEquipmentReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports endpoint called with action: getEquipmentReport
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports params: Array
+(
+    [controller] => reports
+    [action] => getEquipmentReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Raw POST data: {"controller":"reports","action":"getProductionReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] Decoded JSON data: Array
+(
+    [controller] => reports
+    [action] => getProductionReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] API Request: POST /bkinventory/api/reports - Endpoint: reports - Raw Params: Array
+(
+    [controller] => reports
+    [action] => getProductionReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] POST Data: {"controller":"reports","action":"getProductionReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports endpoint called with action: getProductionReport
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports params: Array
+(
+    [controller] => reports
+    [action] => getProductionReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Raw POST data: {"controller":"reports","action":"getEquipmentReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] Decoded JSON data: Array
+(
+    [controller] => reports
+    [action] => getEquipmentReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] API Request: POST /bkinventory/api/reports - Endpoint: reports - Raw Params: Array
+(
+    [controller] => reports
+    [action] => getEquipmentReport
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] POST Data: {"controller":"reports","action":"getEquipmentReport"}
+[13-Jun-2026 13:10:06 Europe/Berlin] _POST: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] _GET: Array
+(
+)
+
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports endpoint called with action: getEquipmentReport
+[13-Jun-2026 13:10:06 Europe/Berlin] Reports params: Array
+(
+    [controller] => reports
+    [action] => getEquipmentReport
+)
+

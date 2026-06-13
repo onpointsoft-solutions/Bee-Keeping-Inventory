@@ -1,7 +1,7 @@
 <?php
 class Database {
     private $host = 'localhost';
-    private $db_name = 'beekeeping';
+    private $db_name = 'beekeep';
     private $username = 'root';
     private $password = '';
     private $conn;
@@ -12,7 +12,7 @@ class Database {
         try {
             // Use socket path for XAMPP on Linux
             $this->conn = new PDO(
-                'mysql:host=' . $this->host . ';dbname=' . $this->db_name . ';unix_socket=/opt/lampp/var/mysql/mysql.sock',
+                'mysql:host=' . $this->host . ';dbname=' . $this->db_name,
                 $this->username,
                 $this->password
             );

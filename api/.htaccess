@@ -3,10 +3,10 @@
 RewriteEngine On
 
 # Set the base directory for the API
-RewriteBase /inventory-management-system/api/
+RewriteBase /bkinventory/api/
 
 # Allow direct access to the handler.php file
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+inventory-management-system/api/handler\.php [NC]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+bkinventory/api/handler\.php [NC]
 RewriteRule ^ - [L]
 
 # Don't apply rules to existing files or directories

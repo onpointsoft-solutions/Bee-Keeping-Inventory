@@ -1,6 +1,6 @@
 // API endpoint helper
 // Utility functions for API calls
-const API_BASE = '/inventory-management-system/api';
+const API_BASE = '/bkinventory/api';
 
 const api = {
     async get(endpoint, params = {}) {

@@ -1,5 +1,5 @@
 // Base API URL
-const API_BASE_URL = '/inventory-management-system/api';
+const API_BASE_URL = '/bkinventory/api';
 
 // Map resource types to their API endpoints
 const API_ENDPOINTS = {

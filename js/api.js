@@ -3,7 +3,7 @@
 const apiClient = {
     async post(endpoint, data) {
         try {
-            const response = await fetch(`/inventory-management-system/api/${endpoint}/`, {
+            const response = await fetch(`/bkinventory/api/${endpoint}/`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
@@ -17,7 +17,7 @@ const apiClient = {
 
     async get(endpoint, params = {}) {
         const queryString = new URLSearchParams(params).toString();
-        const url = `/inventory-management-system/api/${endpoint}/?${queryString}`;
+        const url = `/bkinventory/api/${endpoint}/?${queryString}`;
         try {
             const response = await fetch(url);
             return await response.json();

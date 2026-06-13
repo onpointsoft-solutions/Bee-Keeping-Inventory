@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 async function loadProduction() {
     try {
         // Use direct PHP file instead of API
-        const response = await fetch('/inventory-management-system/get_production_data.php');
+        const response = await fetch('/bkinventory/get_production_data.php');
         const data = await response.json();
         
         if (data.success) {
@@ -37,7 +37,7 @@ async function loadProduction() {
 async function loadProductionReport() {
     try {
         // Use direct PHP file instead of API
-        const response = await fetch('/inventory-management-system/get_production_report.php');
+        const response = await fetch('/bkinventory/get_production_report.php');
         const data = await response.json();
         
         if (data.success) {
@@ -406,7 +406,7 @@ async function handleAddProduction(e) {
         console.log('Submitting production data:', data);
         
         // Use our direct endpoint for adding production
-        const response = await fetch('/inventory-management-system/add_production.php', {
+        const response = await fetch('/bkinventory/add_production.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -466,7 +466,7 @@ async function handleUpdateProduction(e) {
         console.log('Updating production data:', data);
         
         // Use fetch directly to ensure proper data format
-        const response = await fetch('/inventory-management-system/api/production', {
+        const response = await fetch('/bkinventory/api/production', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const BASE_API_URL = `${window.location.origin}/inventory-management-system/api/auth`;
+    const BASE_API_URL = `${window.location.origin}/bkinventory/api/auth`;
 
     document.querySelectorAll('.tab').forEach(tab => {
         tab.addEventListener('click', function() {

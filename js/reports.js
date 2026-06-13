@@ -45,7 +45,7 @@ function loadReports() {
 
 // Load production report
 function loadProductionReport() {
-    fetch('/inventory-management-system/api/reports', {
+    fetch('/bkinventory/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -68,7 +68,7 @@ function loadProductionReport() {
 
 // Load equipment report
 function loadEquipmentReport() {
-    fetch('/inventory-management-system/api/reports', {
+    fetch('/bkinventory/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -91,7 +91,7 @@ function loadEquipmentReport() {
 
 // Load health report
 function loadHealthReport() {
-    fetch('/inventory-management-system/api/reports', {
+    fetch('/bkinventory/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -127,7 +127,7 @@ function generateCustomReport() {
     const reportResults = document.getElementById('reportResults');
     if (reportResults) reportResults.innerHTML = '<div class="text-center"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div><p class="mt-2">Generating report...</p></div>';
     
-    fetch('/inventory-management-system/api/reports', {
+    fetch('/bkinventory/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
